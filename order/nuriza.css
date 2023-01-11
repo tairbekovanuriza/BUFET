@@ -1,0 +1,14 @@
+body{
+background-image: url(/order/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 120px;
+  text-align: center;
+  margin-top: 400px;
+  color: #fff;
+}

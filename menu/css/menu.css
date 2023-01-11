@@ -1,0 +1,195 @@
+@import url(./reset.css);
+body{
+    font-family: 'Tinos', serif;
+}
+.content{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1440px;
+}
+main{
+    /* background: linear-gradient(245deg,rgb(0 0 0 / 79%) 11.34%, rgb(49 40 40 / 25%) 159.42%); */
+    background-color: #050606c9;
+}
+h1{
+    font-style: normal;
+    font-size: 76px;
+    line-height: 87px;
+    text-align: center;
+    color: #BC9060;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+h2{
+    font-style: normal;
+    font-size: 53px;
+    line-height: 61px;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.menu1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5 1fr);
+    grid-gap: 30px 95px;
+    margin-top: 103px;
+}
+
+.item1{
+    position: relative;
+    background-image: url(/menu/img/bg1.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 180px;
+}
+.item2{
+    position: relative;
+    background-image: url(/menu/img/bg2.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 180px;
+}
+
+.text1{
+    position: absolute;
+    top: 36px;
+    left: 120px;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #BC9060;
+    font-weight: 700;
+}
+.text{
+    position: absolute;
+    top: 36px;
+    left: 300px;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #BC9060;
+    font-weight: 400;
+}
+.text  p span{
+    font-style: italic;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.text1  p span{
+    font-style: italic;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.item1 img{
+    position: absolute;
+    left: 413px;   
+    overflow: hidden; 
+}
+.item2 img{
+    position: absolute;
+    left: 45px;
+    top: 30px;
+}
+.ragu {
+    position: absolute;
+    top: 30px;
+}
+.shorpo{
+    position: absolute;
+    top: 15px;
+}
+.meat{  
+    position: absolute;
+    top: 30px;
+}
+.mampar{
+    position: absolute;
+    top: 15px;
+}
+.shorpo-1{
+    position: absolute;
+    top: -3px !important;
+}
+.borsh{
+    position: absolute;
+    left: 73px !important;
+}
+.menu2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7 1fr);
+    grid-gap: 30px 95px;
+}
+.main2 h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bi{
+    left: 387px;
+    top: 20px;
+}
+.ash{
+    
+    top: 6px !important;
+    left: 40px !important;
+}
+.ashman{
+    left: 60px !important;
+}
+.samsa{
+    top: 8px !important;
+}
+.teftel{
+    left: 391px;
+    top: -15px;
+}
+.k-man{
+    top: 55px;
+    left: 224px;
+}
+.kfoto{
+    left: 15px !important;
+}
+.boor{
+    left: 34px;
+}
+.boorfoto{
+    top: 42px;
+}
+.wqw{
+    left: 5px;
+}
+.wqwe{
+    top: 68px !important;
+}
+.price{
+    font-style: italic;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.main3 h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ko{
+    top: -3px !important;
+}
+.li{
+    left: 233px;
+    top: 53px;
+}
+.chai{
+    left: 183px !important;
+}
