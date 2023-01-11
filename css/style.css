@@ -10,7 +10,7 @@ body {
 
 .header {
   position: relative;
-  background-image: url(/img/header_img/background_img_header.png);
+  background-image: url(../img/header_img/background_img_header.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 904px;
